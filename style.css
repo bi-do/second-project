@@ -1,0 +1,107 @@
+body {
+  margin: 0;
+
+}
+
+main {
+  background-color: skyblue;
+}
+
+.container {
+  background-color: white;
+  background-size: cover;
+  background-repeat: no-repeat;
+  box-shadow: rgba(14, 30, 37, 0.12) 0px 2px 4px 0px,
+    rgba(14, 30, 37, 0.32) 0px 2px 16px 0px;
+  height: 95vh;
+}
+.input-line {
+  margin-top: 40px;
+}
+
+#input-box {
+  border: 2px solid skyblue;
+  width: 65vw;
+  height: 50px;
+  padding: 5px;
+  padding-left: 10px;
+}
+
+#input-box:focus {
+  border-color: skyblue;
+  outline: none;
+}
+
+#input-button {
+  height: 50px;
+  margin-left: 10px;
+  background-color: skyblue;
+  border-color: skyblue;
+}
+
+.task-line {
+  border: 1px solid #BFB9B6;
+  margin-top: 20px;
+}
+
+.done-line {
+  display: flex;
+  border-bottom: 1px solid 	#BFB9B6;
+  position: relative;
+
+}
+
+.done-line div {
+  padding: 20px;
+}
+
+.done-line div:hover{
+  cursor: pointer;
+}
+#under-bar {
+  position: absolute;
+  background-color: skyblue;
+  left: 0;
+  bottom: 0;
+  height: 5px;
+  transition: 0.5s;
+}
+
+
+.task{
+  display: flex;
+
+  border-bottom: 1px solid #BFB9B6;
+  position: relative;
+  
+}
+
+.task div{
+  padding: 20px
+}
+
+.task-normal{
+  width: 80%;
+  display: flex;
+  align-items: center;
+  
+}
+.task-done{
+  text-decoration: line-through;
+  background-color: #BFB9B6;
+  
+  
+}
+
+.button-zone{
+  width: 20%;
+  display: flex;
+  justify-content: space-around;
+}
+
+.button-zone button{
+  border: none;
+  background-color: white;
+  font-size: 30px;
+ 
+}
